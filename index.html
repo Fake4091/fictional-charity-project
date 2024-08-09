@@ -9,8 +9,18 @@
       <a class="help-link" href="#who-we-helped">Who We Helped</a>
       <a class="about-link" href="#about">About</a>
       <a class="why-link" href="#why">Why Do We Do This?</a>
-      <a class="donate" href="#footer">Donate</a>
+      <a class="donate" onclick="alertAndLeave()">Donate</a>
     </nav>
+    <script>
+      function alertAndLeave() {
+        alert("This is a fake charity. Consider donating to a real one.");
+        var win = window.open(
+          "https://secure2.wish.org/site/SPageServer?pagename=donate_today&chid=100-000",
+          "_blank",
+        );
+        win.focus();
+      }
+    </script>
     <h1>Welcome to the Wish Upon A Star Charity</h1>
     <h2 class="helped" id="who-we-helped">Who We Helped</h2>
     <p>
@@ -57,7 +67,7 @@
     </p>
     <footer id="footer">
       <p>
-        The kids on this page were actually helped by
+        The kids on this page were <em>actually</em> helped by
         <a href="https://wish.org" target="_blank">Make a Wish Foundation</a>.
         This is a parody site for a school project. Consider
         <a
