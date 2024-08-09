@@ -1,0 +1,93 @@
+body {
+  background-color: #24273a;
+  color: #cad3f5;
+  text-align: center;
+}
+
+p {
+  font-size: 14pt;
+}
+
+h1 {
+  color: #ed8796;
+}
+
+h2 {
+  color: #b7bdf8;
+  font-size: 18pt;
+}
+
+img {
+  width: 600px;
+}
+
+hr {
+  border: 3px solid #b8c0e0;
+}
+
+div {
+  text-align: center;
+}
+
+div hr {
+  border: 1px solid #b8c0e0;
+  width: 75%;
+}
+
+a:link {
+  color: #8aadf4;
+}
+
+a:visited {
+  color: #c6a0f6;
+}
+
+a:hover {
+  color: #b7bdf8;
+}
+
+nav a {
+  float: left;
+  padding: 10px;
+  margin: 0px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #1e2030;
+  padding-bottom: 11px;
+}
+
+nav {
+  background-color: #363a4f;
+  height: 42px;
+  border-radius: 5px;
+}
+
+nav a.help-link {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.donate {
+  float: right;
+  background-color: blue;
+  margin: 0px;
+  border-radius: 5px;
+}
+
+.donate:hover {
+  background-color: #8aadf4;
+  color: #494d64;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #494d64;
+  box-shadow: 0 50vh 0 50vh #494d64;
+  font-size: 8pt;
+}
+
+footer hr {
+  border: 0.5px solid #8087a2;
+  margin: 30px -20px 0px;
+}
