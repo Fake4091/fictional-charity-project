@@ -84,7 +84,10 @@ nav a.help-link {
 footer {
   background-color: #494d64;
   box-shadow: 0 50vh 0 50vh #494d64;
-  font-size: 8pt;
+}
+
+footer p {
+  font-size: 10pt;
 }
 
 footer hr {
