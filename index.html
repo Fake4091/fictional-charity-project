@@ -1,26 +1,22 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Wish Upon A Star</title>
-    <link rel="stylesheet" hr class="hr" ef="style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body class="body">
     <nav class="navbar" id="top-nav-bar">
-      <a class="a" class="help-link" hr class="hr" ef="#who-we-helped"
-        >Who We Helped</a
-      >
-      <a class="a" class="about-link" hr class="hr" ef="#about">About</a>
-      <a class="a" class="why-link" hr class="hr" ef="#why"
-        >Why Do We Do This?</a
-      >
-      <a class="a" class="donate" onclick="alertAndLeave()">Donate</a>
+      <a class="a help-link" href="#who-we-helped">Who We Helped</a>
+      <a class="a about-link" href="#about">About</a>
+      <a class="a why-link" href="#why">Why Do We Do This?</a>
+      <a class="a donate" onclick="alertAndLeave()">Donate</a>
     </nav>
     <script>
       function alertAndLeave() {
         alert("This is a fake charity. Consider donating to a real one.");
         var win = window.open(
           "https://secure2.wish.org/site/SPageServer?pagename=donate_today&chid=100-000",
-          "_blank",
+          "_blank"
         );
         win.focus();
       }
