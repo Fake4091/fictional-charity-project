@@ -96,6 +96,6 @@
   margin: 30px -20px 0px;
 }
 
-.kid-with-puppy {
-  margin-top: 7.5%;
+.tr {
+  display: flex;
 }
